@@ -1,0 +1,66 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Tutorials
+    chapters:
+    - file: tutorials/Demo.ipynb
+      title: Build a simple workflow
+    - file: tutorials/WorkFlow.ipynb
+      title: User-Friendly approach
+    - file: tutorials/CleanCleanER.ipynb
+      title: Clean-Clean ER for Devs
+    - file: tutorials/CleanCleanERwithoutGT.ipynb
+      title: Clean-Clean ER without GT
+    - file: tutorials/Reproducibility.ipynb
+      title: Academic reproducibility
+    - file: tutorials/DirtyER.ipynb
+      title: Dirty ER for Devs
+    - file: tutorials/Optuna.ipynb
+      title: Fine-tunning with Optuna
+    - file: tutorials/SimilarityJoins.ipynb
+      title: Similarity Joins workflow
+    - file: tutorials/pyTorchWorkflow.ipynb
+      title: Workflow with pyTorch embeddings
+    - file: tutorials/TfIdfWorkflow.ipynb 
+      title: Matching with TF-IDF embeddings
+    - file: tutorials/ProgressiveCCER.ipynb
+      title: Progressive Entity Resolution
+    - file: tutorials/SchemaMatching.ipynb
+      title: Schema Matching with Valentine
+    - file: tutorials/Spatial.ipynb
+      title: Spatial component
+    - file: tutorials/Readers.ipynb
+      title: Examples in transforming datasets to pandas
+  - caption: Benchmarks
+    chapters:
+    - file: pages/benchmarks.md
+      title: Results and Performance Demo
+  - caption: Code
+    chapters:
+    - file: code/api.rst
+      title: API
+  - caption: Contribution guide
+    chapters:
+    - file: pages/contribution.md
+      title: New to pyJedAI?
+  - caption: Releases and News
+    chapters:
+    - url: https://github.com/AI-team-UoA/pyJedAI/releases
+      title: Releases
+  - caption: Publications & Fundings
+    chapters:
+    - file: pages/publications.md
+      title: Publications
+    - file: pages/icwe2024.md
+      title: ICWE 2024
+    - url: https://stelar-project.eu
+      title: STELAR - HORIZON-EU
+  - caption: Links
+    chapters:
+    - url: https://github.com/AI-team-UoA/pyJedAI
+      title: AI-Team @ University of Athens
+    - url: https://github.com/scify/JedAIToolkit
+      title: Java JedAIToolkit

@@ -1,0 +1,32 @@
+title: pyJedAI
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Nikoletos"
+  given-names: "Konstantinos"
+  orcid: "https://orcid.org/0000-0003-3465-1197"
+- family-names: "Papadakis"
+  given-names: "George"
+  orcid: "https://orcid.org/0000-0002-7298-9431"
+- family-names: "Koubarakis"
+  given-names: "Manolis"
+title: "pyJedAI: a lightsaber for Link Discovery"
+url: "https://pyjedai.readthedocs.io/en/latest/intro.html"
+cff-version: 1.2.0
+license: Apache-2.0
+preferred-citation:
+  title: "pyJedAI: a lightsaber for Link Discovery"
+  type: conference-paper
+  authors:
+  - family-names: "Nikoletos"
+    given-names: "Konstantinos"
+    orcid: "https://orcid.org/0000-0003-3465-1197"
+  - family-names: "Papadakis"
+    given-names: "George"
+    orcid: "https://orcid.org/0000-0002-7298-9431"
+  - family-names: "Koubarakis"
+    given-names: "Manolis"
+  collection-title: "Demo at International Semantic Web Conference." # booktitle
+  collection-type: "proceedings"
+  conference:
+    name: "ISWC" # series
+  year: 2022
